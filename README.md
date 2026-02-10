@@ -1,79 +1,95 @@
-# 🌱 Smart Irrigation System
+Smart Irrigation System
 
-## 📌 Project Description
-The **Smart Irrigation System** is an IoT-based solution designed to automate irrigation by monitoring soil moisture levels. The system intelligently controls water supply using sensors and a microcontroller, ensuring efficient water usage and reducing manual effort in irrigation practices.
-
-This project is implemented using **Embedded C programming** and focuses on real-time soil moisture detection to prevent over-irrigation and water wastage.
+Smart Irrigation System focuses on irrigation through an IoT-based circuit which automates water supply using sensors and an LPC2148 microcontroller.
 
 ---
 
-## 🎯 Objectives
-- Automate irrigation based on soil moisture levels  
-- Reduce unnecessary water consumption  
-- Improve irrigation efficiency for agriculture and gardening  
-- Minimize manual monitoring and human intervention  
+About the Project
+
+This project involves Smart Irrigation using IoT and system development through C Programming.  
+The core idea of this project is to supply water to the soil based on the moisture content present in the soil and display the moisture level.
+
+By using soil moisture sensors, the system avoids unnecessary water wastage and helps in efficient irrigation management.
 
 ---
 
-## 🧠 System Overview
-The system continuously monitors soil moisture using a soil moisture sensor. Based on the sensor readings, the microcontroller decides whether to turn the water pump **ON** or **OFF** through a relay module.
+System Overview
+
+![System Image](Image.jpeg)
+![System Image](Image2.jpeg)
+![System Image](Image3.jpeg)
+![System Image](Image%204.jpeg)
 
 ---
 
-## 📊 Block Diagram
-![Block Diagram](block_diagram.jpeg)
+Block Diagram
+
+![Block Diagram](block_diagram.png)
 
 ---
 
-## 🔌 Circuit Diagram
+Circuit Diagram
+
 ![Circuit Diagram](circuit_diagram.jpeg)
 
 ---
 
-## 🧩 Components Used
+Components Used
+
 - LPC2148 Microcontroller  
 - Soil Moisture Sensor  
 - Relay Module  
 - Water Pump  
-- Power Supply Unit  
+- Power Supply  
 
 ---
 
-## 💻 Software Used
+Software Used
+
 - Embedded C  
 - Keil µVision  
 - Flash Magic  
 
 ---
 
-## ⚙️ Working of the System
-1. The soil moisture sensor is placed in the soil to measure the moisture level.
-2. If the soil is dry, the sensor sends a signal to the microcontroller.
-3. The microcontroller activates the relay module.
-4. The relay turns **ON** the water pump, and irrigation begins.
-5. Once sufficient moisture is detected, the pump is automatically switched **OFF**.
+Working of the System
 
-This process ensures efficient irrigation while preventing water wastage.
+The soil moisture sensor is placed in the soil to measure the moisture level.  
+If the soil is dry, the sensor sends a signal to the microcontroller and the relay is activated.  
+This turns ON the water pump and irrigation starts.
 
----
-
-## 🛠️ Hardware Implementation
-The hardware setup includes interfacing the soil moisture sensor with the LPC2148 microcontroller, controlling the relay module to operate the water pump, and powering the system using a regulated power supply.
+Once the soil reaches sufficient moisture, the pump is switched OFF automatically.
 
 ---
 
-## 🌾 Applications
+Hardware Implementation
+
+The system is implemented by interfacing the soil moisture sensor with the LPC2148 microcontroller.  
+A relay module is used to control the water pump based on sensor readings.
+
+---
+
+Applications
+
 - Agricultural fields  
 - Garden irrigation  
 - Small-scale farming  
-- Greenhouses  
 
 ---
 
-## ✅ Conclusion
-The Smart Irrigation System reduces water wastage and minimizes manual effort in irrigation. It is a simple, cost-effective, and reliable solution suitable for smart farming and agricultural automation.
+Conclusion
+
+This project helps in reducing water wastage and minimizes manual effort in irrigation.  
+It is simple, cost-effective, and suitable for basic smart farming applications.
 
 ---
 
-## 👩‍💻 Author
-**Hamsa M**
+Project Report
+
+[View Project Report](ReportA.pdf)
+
+---
+
+Author
+
+Hamsa M
